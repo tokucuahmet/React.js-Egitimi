@@ -1,0 +1,30 @@
+<html> 
+    <head>
+      <title>Hesap Makinesi</title>
+    </head>
+    <body>
+      <form name="hesapMakinesi">
+        <input type="button" value="1" onclick="document.hesapMakinesi.ans.value+='1'">
+        <input type="button" value="2" onclick="document.hesapMakinesi.ans.value+='2'">
+        <input type="button" value="3" onclick="document.hesapMakinesi.ans.value+='3'"><br>
+        <input type="button" value="4" onclick="document.hesapMakinesi.ans.value+='4'">
+        <input type="button" value="5" onclick="document.hesapMakinesi.ans.value+='5'">
+        <input type="button" value="6" onclick="document.hesapMakinesi.ans.value+='6'"><br>
+        <input type="button" value="7" onclick="document.hesapMakinesi.ans.value+='7'">
+        <input type="button" value="8" onclick="document.hesapMakinesi.ans.value+='8'">
+        <input type="button" value="9" onclick="document.hesapMakinesi.ans.value+='9'"><br>
+        <input type="button" value="0" onclick="document.hesapMakinesi.ans.value+='0'">
+
+        <input type="button" value="+" onclick="document.hesapMakinesi.ans.value+='+'">
+        <input type="button" value="-" onclick="document.hesapMakinesi.ans.value+='-'"><br>
+        <input type="button" value="*" onclick="document.hesapMakinesi.ans.value+='*'">
+        <input type="button" value="/" onclick="document.hesapMakinesi.ans.value+='/'">
+        <input type="button" value="=" onclick="document.hesapMakinesi.ans.value = eval(document.hesapMakinesi.ans.value)"><br><br>
+
+        <input type="reset" value="Sıfırla"><br><br>
+        <input type="textfield" name="ans" value="">
+        
+
+      </form>
+    </body>
+</html>
