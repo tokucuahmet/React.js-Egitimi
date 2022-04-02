@@ -1,0 +1,26 @@
+*{
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    user-select: none; /* Rakam Seçimini Kaldırma */
+}
+.baslik{ /* Başlık İle İlgili İçerik */
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+table{ /* Sudoku Arka Plan İçeriği */
+    width: 450px;
+    height: 0;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: yellow;
+}
+table td{ /* Sudoku Rakam İçeriği */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+}
