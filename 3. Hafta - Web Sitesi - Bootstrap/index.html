@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>
+        .foto{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="jumbotron text-center"  style="margin-bottom: 0"> <!-- Sayfa Başlığı Erişimi -->
+        <h2>Kozmik Maker Akademi</h2>
+        <p>APY Ventures & Üretken Akademi "React.js Yazılımcı Geliştirme Programı"</p>
+    </header>
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="column-gap: 30px; text-decoration: none;"> <!-- Navbar Ayarlarına Erişimi -->
+            <a class="navbar-brand" href="#">Ana Sayfa</a>
+            <a class="" href="#">İçerik</a>
+            <a href="#">Ders Notları</a>
+            <a href="#">İletişim</a>
+        </nav>
+        <div class="container" style="margin-top:30px"> <!-- Ana Gövdeye Erişimi -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>Hakkımda</h2>
+                    <img class="foto" src="profil.jpg.jpg">
+                    <br><br>
+                    <p>Ahmet TOKUCU, APY Ventures & Üretken Akademi "React.js Yazılımcı Geliştirme Programı" Öğrencisi</p>
+                    <h3>Haftalık Ders Notları</h3>
+                    <div class="list-group"> <!-- Haftalık Ders Listesine Erişimi -->
+                        <a href="#" class="list-group-item list-group-item-action">1. Hafta</a>
+                        <a href="#" class="list-group-item list-group-item-action">2. Hafta</a>
+                        <a href="#" class="list-group-item list-group-item-action">3. Hafta</a>
+                    </div>
+                </div>
+                <div class="col-sm-8"> <!-- Derslerin İçeriğine Erişimi -->
+                    <h2>Birinci Hafta</h2>
+                    <h5>Html Temellerine Giriş</h5>
+                    <p>1. Hafta, Html üzerine temel kod kavramlarını öğrendik. Haftalık ödev konusu ise input'lar kullanarak bir "Hesap Makinesi" yapımını tamamladık.</p>
+                    <br>
+                    <h2>İkinci Hafta</h2>
+                    <h5>Css Temellerine Giriş</h5>
+                    <p>Html ile sayfaların gövde yapısını oluşturduktan sonra Css kısmının görünür kısımların ayarlanmasını öğrendik. Haftalık ödev konusu ise "Sudoku" görselini manuel bir şekilde oluşturmak idi.</p>
+                    <h2>Üçüncü Hafta</h2>
+                    <h5>Bootstrap Temellerine Giriş</h5>
+                    <p>Bootstrap kütüphanesini kullanmayı öğrenmeye başladık. Css kısmını kullamadan sadece html sayfası üzerinden hazır taslakları çekerek bir Web sayfası tasarlamayı öğrendik. Haftalık ödev konusu ise bu görmüş olduğunuz Web sayfasını tasarlamak idi.</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="jumbotron text-center" style="margin-bottom:0"> <!-- Alt İnfo Erişimi -->
+            <p>APY Ventures & Üretken Akademi "React.js Yazılımcı Geliştirme Programı"</p>
+            <p>Ahmet TOKUCU</p>
+          </div>
+</body>
+</html>
