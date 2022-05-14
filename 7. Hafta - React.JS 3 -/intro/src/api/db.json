@@ -1,0 +1,1279 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"productName": "Chai",
+			"categoryId": 1,
+			"quantityPerUnit": "10 boxes x 20 bags",
+			"unitPrice": 18,
+			"unitsInStock": 39,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 2,
+			"productName": "Chang",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 12 oz bottles",
+			"unitPrice": 19,
+			"unitsInStock": 17,
+			"UnitsOnOrder": 40,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 3,
+			"productName": "Aniseed Syrup",
+			"categoryId": 2,
+			"quantityPerUnit": "12 - 550 ml bottles",
+			"unitPrice": 10,
+			"unitsInStock": 13,
+			"UnitsOnOrder": 70,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 4,
+			"productName": "Chef Anton's Cajun Seasoning",
+			"categoryId": 2,
+			"quantityPerUnit": "48 - 6 oz jars",
+			"unitPrice": 22,
+			"unitsInStock": 53,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 5,
+			"productName": "Chef Anton's Gumbo Mix",
+			"categoryId": 2,
+			"quantityPerUnit": "36 boxes",
+			"unitPrice": 21.35,
+			"unitsInStock": 0,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 6,
+			"productName": "Grandma's Boysenberry Spread",
+			"categoryId": 2,
+			"quantityPerUnit": "12 - 8 oz jars",
+			"unitPrice": 25,
+			"unitsInStock": 120,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 7,
+			"productName": "Uncle Bob's Organic Dried Pears",
+			"categoryId": 7,
+			"quantityPerUnit": "12 - 1 lb pkgs.",
+			"unitPrice": 30,
+			"unitsInStock": 15,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 7,
+				"CategoryName": "Produce",
+				"Description": "Dried fruit and bean curd"
+			}
+		},
+		{
+			"id": 8,
+			"productName": "Northwoods Cranberry Sauce",
+			"categoryId": 2,
+			"quantityPerUnit": "12 - 12 oz jars",
+			"unitPrice": 40,
+			"unitsInStock": 6,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 9,
+			"productName": "Mishi Kobe Niku",
+			"categoryId": 6,
+			"quantityPerUnit": "18 - 500 g pkgs.",
+			"unitPrice": 97,
+			"unitsInStock": 29,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 10,
+			"productName": "Ikura",
+			"categoryId": 8,
+			"quantityPerUnit": "12 - 200 ml jars",
+			"unitPrice": 31,
+			"unitsInStock": 31,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 11,
+			"productName": "Queso Cabrales",
+			"categoryId": 4,
+			"quantityPerUnit": "1 kg pkg.",
+			"unitPrice": 21,
+			"unitsInStock": 22,
+			"UnitsOnOrder": 30,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 12,
+			"productName": "Queso Manchego La Pastora",
+			"categoryId": 4,
+			"quantityPerUnit": "10 - 500 g pkgs.",
+			"unitPrice": 38,
+			"unitsInStock": 86,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 13,
+			"productName": "Konbu",
+			"categoryId": 8,
+			"quantityPerUnit": "2 kg box",
+			"unitPrice": 6,
+			"unitsInStock": 24,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 14,
+			"productName": "Tofu",
+			"categoryId": 7,
+			"quantityPerUnit": "40 - 100 g pkgs.",
+			"unitPrice": 23.25,
+			"unitsInStock": 35,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 7,
+				"CategoryName": "Produce",
+				"Description": "Dried fruit and bean curd"
+			}
+		},
+		{
+			"id": 15,
+			"productName": "Genen Shouyu",
+			"categoryId": 2,
+			"quantityPerUnit": "24 - 250 ml bottles",
+			"unitPrice": 15.5,
+			"unitsInStock": 39,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 16,
+			"productName": "Pavlova",
+			"categoryId": 3,
+			"quantityPerUnit": "32 - 500 g boxes",
+			"unitPrice": 17.45,
+			"unitsInStock": 29,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 17,
+			"productName": "Alice Mutton",
+			"categoryId": 6,
+			"quantityPerUnit": "20 - 1 kg tins",
+			"unitPrice": 39,
+			"unitsInStock": 0,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 18,
+			"productName": "Carnarvon Tigers",
+			"categoryId": 8,
+			"quantityPerUnit": "16 kg pkg.",
+			"unitPrice": 62.5,
+			"unitsInStock": 42,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 19,
+			"productName": "Teatime Chocolate Biscuits",
+			"categoryId": 3,
+			"quantityPerUnit": "10 boxes x 12 pieces",
+			"unitPrice": 9.2,
+			"unitsInStock": 25,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 20,
+			"productName": "Sir Rodney's Marmalade",
+			"categoryId": 3,
+			"quantityPerUnit": "30 gift boxes",
+			"unitPrice": 81,
+			"unitsInStock": 40,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 21,
+			"productName": "Sir Rodney's Scones",
+			"categoryId": 3,
+			"quantityPerUnit": "24 pkgs. x 4 pieces",
+			"unitPrice": 10,
+			"unitsInStock": 3,
+			"UnitsOnOrder": 40,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 22,
+			"productName": "Gustaf's Knäckebröd",
+			"categoryId": 5,
+			"quantityPerUnit": "24 - 500 g pkgs.",
+			"unitPrice": 21,
+			"unitsInStock": 104,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 23,
+			"productName": "Tunnbröd",
+			"categoryId": 5,
+			"quantityPerUnit": "12 - 250 g pkgs.",
+			"unitPrice": 9,
+			"unitsInStock": 61,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 24,
+			"productName": "Guaraná Fantástica",
+			"categoryId": 1,
+			"quantityPerUnit": "12 - 355 ml cans",
+			"unitPrice": 4.5,
+			"unitsInStock": 20,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 25,
+			"productName": "NuNuCa Nuß-Nougat-Creme",
+			"categoryId": 3,
+			"quantityPerUnit": "20 - 450 g glasses",
+			"unitPrice": 14,
+			"unitsInStock": 76,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 26,
+			"productName": "Gumbär Gummibärchen",
+			"categoryId": 3,
+			"quantityPerUnit": "100 - 250 g bags",
+			"unitPrice": 31.23,
+			"unitsInStock": 15,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 27,
+			"productName": "Schoggi Schokolade",
+			"categoryId": 3,
+			"quantityPerUnit": "100 - 100 g pieces",
+			"unitPrice": 43.9,
+			"unitsInStock": 49,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 28,
+			"productName": "Rössle Sauerkraut",
+			"categoryId": 7,
+			"quantityPerUnit": "25 - 825 g cans",
+			"unitPrice": 45.6,
+			"unitsInStock": 26,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 7,
+				"CategoryName": "Produce",
+				"Description": "Dried fruit and bean curd"
+			}
+		},
+		{
+			"id": 29,
+			"productName": "Thüringer Rostbratwurst",
+			"categoryId": 6,
+			"quantityPerUnit": "50 bags x 30 sausgs.",
+			"unitPrice": 123.79,
+			"unitsInStock": 0,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 30,
+			"productName": "Nord-Ost Matjeshering",
+			"categoryId": 8,
+			"quantityPerUnit": "10 - 200 g glasses",
+			"unitPrice": 25.89,
+			"unitsInStock": 10,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 31,
+			"productName": "Gorgonzola Telino",
+			"categoryId": 4,
+			"quantityPerUnit": "12 - 100 g pkgs",
+			"unitPrice": 12.5,
+			"unitsInStock": 0,
+			"UnitsOnOrder": 70,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 32,
+			"productName": "Mascarpone Fabioli",
+			"categoryId": 4,
+			"quantityPerUnit": "24 - 200 g pkgs.",
+			"unitPrice": 32,
+			"unitsInStock": 9,
+			"UnitsOnOrder": 40,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 33,
+			"productName": "Geitost",
+			"categoryId": 4,
+			"quantityPerUnit": "500 g",
+			"unitPrice": 2.5,
+			"unitsInStock": 112,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 34,
+			"productName": "Sasquatch Ale",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 12 oz bottles",
+			"unitPrice": 14,
+			"unitsInStock": 111,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 35,
+			"productName": "Steeleye Stout",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 12 oz bottles",
+			"unitPrice": 18,
+			"unitsInStock": 20,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 36,
+			"productName": "Inlagd Sill",
+			"categoryId": 8,
+			"quantityPerUnit": "24 - 250 g  jars",
+			"unitPrice": 19,
+			"unitsInStock": 112,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 37,
+			"productName": "Gravad lax",
+			"categoryId": 8,
+			"quantityPerUnit": "12 - 500 g pkgs.",
+			"unitPrice": 26,
+			"unitsInStock": 11,
+			"UnitsOnOrder": 50,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 38,
+			"productName": "Côte de Blaye",
+			"categoryId": 1,
+			"quantityPerUnit": "12 - 75 cl bottles",
+			"unitPrice": 263.5,
+			"unitsInStock": 17,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 39,
+			"productName": "Chartreuse verte",
+			"categoryId": 1,
+			"quantityPerUnit": "750 cc per bottle",
+			"unitPrice": 18,
+			"unitsInStock": 69,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 40,
+			"productName": "Boston Crab Meat",
+			"categoryId": 8,
+			"quantityPerUnit": "24 - 4 oz tins",
+			"unitPrice": 18.4,
+			"unitsInStock": 123,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 41,
+			"productName": "Jack's New England Clam Chowder",
+			"categoryId": 8,
+			"quantityPerUnit": "12 - 12 oz cans",
+			"unitPrice": 9.65,
+			"unitsInStock": 85,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 42,
+			"productName": "Singaporean Hokkien Fried Mee",
+			"categoryId": 5,
+			"quantityPerUnit": "32 - 1 kg pkgs.",
+			"unitPrice": 14,
+			"unitsInStock": 26,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 43,
+			"productName": "Ipoh Coffee",
+			"categoryId": 1,
+			"quantityPerUnit": "16 - 500 g tins",
+			"unitPrice": 46,
+			"unitsInStock": 17,
+			"UnitsOnOrder": 10,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 44,
+			"productName": "Gula Malacca",
+			"categoryId": 2,
+			"quantityPerUnit": "20 - 2 kg bags",
+			"unitPrice": 19.45,
+			"unitsInStock": 27,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 45,
+			"productName": "Rogede sild",
+			"categoryId": 8,
+			"quantityPerUnit": "1k pkg.",
+			"unitPrice": 9.5,
+			"unitsInStock": 5,
+			"UnitsOnOrder": 70,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 46,
+			"productName": "Spegesild",
+			"categoryId": 8,
+			"quantityPerUnit": "4 - 450 g glasses",
+			"unitPrice": 12,
+			"unitsInStock": 95,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 47,
+			"productName": "Zaanse koeken",
+			"categoryId": 3,
+			"quantityPerUnit": "10 - 4 oz boxes",
+			"unitPrice": 9.5,
+			"unitsInStock": 36,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 48,
+			"productName": "Chocolade",
+			"categoryId": 3,
+			"quantityPerUnit": "10 pkgs.",
+			"unitPrice": 12.75,
+			"unitsInStock": 15,
+			"UnitsOnOrder": 70,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 49,
+			"productName": "Maxilaku",
+			"categoryId": 3,
+			"quantityPerUnit": "24 - 50 g pkgs.",
+			"unitPrice": 20,
+			"unitsInStock": 10,
+			"UnitsOnOrder": 60,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 50,
+			"productName": "Valkoinen suklaa",
+			"categoryId": 3,
+			"quantityPerUnit": "12 - 100 g bars",
+			"unitPrice": 16.25,
+			"unitsInStock": 65,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 51,
+			"productName": "Manjimup Dried Apples",
+			"categoryId": 7,
+			"quantityPerUnit": "50 - 300 g pkgs.",
+			"unitPrice": 53,
+			"unitsInStock": 20,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 7,
+				"CategoryName": "Produce",
+				"Description": "Dried fruit and bean curd"
+			}
+		},
+		{
+			"id": 52,
+			"productName": "Filo Mix",
+			"categoryId": 5,
+			"quantityPerUnit": "16 - 2 kg boxes",
+			"unitPrice": 7,
+			"unitsInStock": 38,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 53,
+			"productName": "Perth Pasties",
+			"categoryId": 6,
+			"quantityPerUnit": "48 pieces",
+			"unitPrice": 32.8,
+			"unitsInStock": 0,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": true,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 54,
+			"productName": "Tourtière",
+			"categoryId": 6,
+			"quantityPerUnit": "16 pies",
+			"unitPrice": 7.45,
+			"unitsInStock": 21,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 55,
+			"productName": "Pâté chinois",
+			"categoryId": 6,
+			"quantityPerUnit": "24 boxes x 2 pies",
+			"unitPrice": 24,
+			"unitsInStock": 115,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 6,
+				"CategoryName": "Meat/Poultry",
+				"Description": "Prepared meats"
+			}
+		},
+		{
+			"id": 56,
+			"productName": "Gnocchi di nonna Alice",
+			"categoryId": 5,
+			"quantityPerUnit": "24 - 250 g pkgs.",
+			"unitPrice": 38,
+			"unitsInStock": 21,
+			"UnitsOnOrder": 10,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 57,
+			"productName": "Ravioli Angelo",
+			"categoryId": 5,
+			"quantityPerUnit": "24 - 250 g pkgs.",
+			"unitPrice": 19.5,
+			"unitsInStock": 36,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 58,
+			"productName": "Escargots de Bourgogne",
+			"categoryId": 8,
+			"quantityPerUnit": "24 pieces",
+			"unitPrice": 13.25,
+			"unitsInStock": 62,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 59,
+			"productName": "Raclette Courdavault",
+			"categoryId": 4,
+			"quantityPerUnit": "5 kg pkg.",
+			"unitPrice": 55,
+			"unitsInStock": 79,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 60,
+			"productName": "Camembert Pierrot",
+			"categoryId": 4,
+			"quantityPerUnit": "15 - 300 g rounds",
+			"unitPrice": 34,
+			"unitsInStock": 19,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 61,
+			"productName": "Sirop d'érable",
+			"categoryId": 2,
+			"quantityPerUnit": "24 - 500 ml bottles",
+			"unitPrice": 28.5,
+			"unitsInStock": 113,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 62,
+			"productName": "Tarte au sucre",
+			"categoryId": 3,
+			"quantityPerUnit": "48 pies",
+			"unitPrice": 49.3,
+			"unitsInStock": 17,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 63,
+			"productName": "Vegie-spread",
+			"categoryId": 2,
+			"quantityPerUnit": "15 - 625 g jars",
+			"unitPrice": 43.9,
+			"unitsInStock": 24,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 64,
+			"productName": "Wimmers gute Semmelknödel",
+			"categoryId": 5,
+			"quantityPerUnit": "20 bags x 4 pieces",
+			"unitPrice": 33.25,
+			"unitsInStock": 22,
+			"UnitsOnOrder": 80,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 5,
+				"CategoryName": "Grains/Cereals",
+				"Description": "Breads, crackers, pasta, and cereal"
+			}
+		},
+		{
+			"id": 65,
+			"productName": "Louisiana Fiery Hot Pepper Sauce",
+			"categoryId": 2,
+			"quantityPerUnit": "32 - 8 oz bottles",
+			"unitPrice": 21.05,
+			"unitsInStock": 76,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 66,
+			"productName": "Louisiana Hot Spiced Okra",
+			"categoryId": 2,
+			"quantityPerUnit": "24 - 8 oz jars",
+			"unitPrice": 17,
+			"unitsInStock": 4,
+			"UnitsOnOrder": 100,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		},
+		{
+			"id": 67,
+			"productName": "Laughing Lumberjack Lager",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 12 oz bottles",
+			"unitPrice": 14,
+			"unitsInStock": 52,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 10,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 68,
+			"productName": "Scottish Longbreads",
+			"categoryId": 3,
+			"quantityPerUnit": "10 boxes x 8 pieces",
+			"unitPrice": 12.5,
+			"unitsInStock": 6,
+			"UnitsOnOrder": 10,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 3,
+				"CategoryName": "Confections",
+				"Description": "Desserts, candies, and sweet breads"
+			}
+		},
+		{
+			"id": 69,
+			"productName": "Gudbrandsdalsost",
+			"categoryId": 4,
+			"quantityPerUnit": "10 kg pkg.",
+			"unitPrice": 36,
+			"unitsInStock": 26,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 70,
+			"productName": "Outback Lager",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 355 ml bottles",
+			"unitPrice": 15,
+			"unitsInStock": 15,
+			"UnitsOnOrder": 10,
+			"ReorderLevel": 30,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 71,
+			"productName": "Flotemysost",
+			"categoryId": 4,
+			"quantityPerUnit": "10 - 500 g pkgs.",
+			"unitPrice": 21.5,
+			"unitsInStock": 26,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 72,
+			"productName": "Mozzarella di Giovanni",
+			"categoryId": 4,
+			"quantityPerUnit": "24 - 200 g pkgs.",
+			"unitPrice": 34.8,
+			"unitsInStock": 14,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 0,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 4,
+				"CategoryName": "Dairy Products",
+				"Description": "Cheeses"
+			}
+		},
+		{
+			"id": 73,
+			"productName": "Röd Kaviar",
+			"categoryId": 8,
+			"quantityPerUnit": "24 - 150 g jars",
+			"unitPrice": 15,
+			"unitsInStock": 101,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 8,
+				"CategoryName": "Seafood",
+				"Description": "Seaweed and fish"
+			}
+		},
+		{
+			"id": 74,
+			"productName": "Longlife Tofu",
+			"categoryId": 7,
+			"quantityPerUnit": "5 kg pkg.",
+			"unitPrice": 10,
+			"unitsInStock": 4,
+			"UnitsOnOrder": 20,
+			"ReorderLevel": 5,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 7,
+				"CategoryName": "Produce",
+				"Description": "Dried fruit and bean curd"
+			}
+		},
+		{
+			"id": 75,
+			"productName": "Rhönbräu Klosterbier",
+			"categoryId": 1,
+			"quantityPerUnit": "24 - 0.5 l bottles",
+			"unitPrice": 7.75,
+			"unitsInStock": 125,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 25,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 76,
+			"productName": "Lakkalikööri",
+			"categoryId": 1,
+			"quantityPerUnit": "500 ml",
+			"unitPrice": 18,
+			"unitsInStock": 57,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 20,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 1,
+				"CategoryName": "Beverages",
+				"Description": "Soft drinks, coffees, teas, beers, and ales"
+			}
+		},
+		{
+			"id": 77,
+			"productName": "Original Frankfurter grüne Soße",
+			"categoryId": 2,
+			"quantityPerUnit": "12 boxes",
+			"unitPrice": 13,
+			"unitsInStock": 32,
+			"UnitsOnOrder": 0,
+			"ReorderLevel": 15,
+			"Discontinued": false,
+			"Category": {
+				"categoryId": 2,
+				"CategoryName": "Condiments",
+				"Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
+			}
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"categoryName": "Baverages",
+			"seoUrl": "baverages"
+		},
+		{
+			"id": 2,
+			"categoryName": "Condiments",
+			"seoUrl": "condiments"
+		},
+		{
+			"id": 3,
+			"categoryName": "Confections",
+			"seoUrl": "confections"
+		},
+		{
+			"id": 4,
+			"categoryName": "Dairy Products",
+			"seoUrl": "dairy-products"
+		},
+		{
+			"id": 5,
+			"categoryName": "Grains/Cereals",
+			"seoUrl": "grains-cereals"
+		},
+		{
+			"id": 6,
+			"categoryName": "Meat/Poultry",
+			"seoUrl": "meat-poultry"
+		},
+		{
+			"id": 7,
+			"categoryName": "Produce",
+			"seoUrl": "produce"
+		},
+		{
+			"id": 8,
+			"categoryName": "Seafood",
+			"seoUrl": "seafood"
+		}
+
+	]
+}
